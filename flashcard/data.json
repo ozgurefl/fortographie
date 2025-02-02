@@ -1,0 +1,170 @@
+{
+    "verbs": [
+        {
+            "word": "être",
+            "definition": "to be"
+        },
+        {
+            "word": "avoir",
+            "definition": "to have"
+        },
+        {
+            "word": "faire",
+            "definition": "to do/make"
+        },
+        {
+            "word": "aller",
+            "definition": "to go"
+        },
+        {
+            "word": "dire",
+            "definition": "to say"
+        },
+        {
+            "word": "pouvoir",
+            "definition": "to be able to"
+        },
+        {
+            "word": "vouloir",
+            "definition": "to want"
+        },
+        {
+            "word": "venir",
+            "definition": "to come"
+        },
+        {
+            "word": "voir",
+            "definition": "to see"
+        },
+        {
+            "word": "prendre",
+            "definition": "to take"
+        }
+    ],
+    "nouns": [
+        {
+            "word": "le chat",
+            "definition": "the cat"
+        },
+        {
+            "word": "la maison",
+            "definition": "the house"
+        },
+        {
+            "word": "l'arbre",
+            "definition": "the tree"
+        },
+        {
+            "word": "le livre",
+            "definition": "the book"
+        },
+        {
+            "word": "la voiture",
+            "definition": "the car"
+        },
+        {
+            "word": "le chien",
+            "definition": "the dog"
+        },
+        {
+            "word": "la table",
+            "definition": "the table"
+        },
+        {
+            "word": "l'école",
+            "definition": "the school"
+        },
+        {
+            "word": "le travail",
+            "definition": "the work"
+        },
+        {
+            "word": "la ville",
+            "definition": "the city"
+        }
+    ],
+    "adjectives": [
+        {
+            "word": "grand",
+            "definition": "big/tall"
+        },
+        {
+            "word": "petit",
+            "definition": "small"
+        },
+        {
+            "word": "beau",
+            "definition": "beautiful"
+        },
+        {
+            "word": "nouveau",
+            "definition": "new"
+        },
+        {
+            "word": "vieux",
+            "definition": "old"
+        },
+        {
+            "word": "bon",
+            "definition": "good"
+        },
+        {
+            "word": "mauvais",
+            "definition": "bad"
+        },
+        {
+            "word": "jeune",
+            "definition": "young"
+        },
+        {
+            "word": "heureux",
+            "definition": "happy"
+        },
+        {
+            "word": "triste",
+            "definition": "sad"
+        }
+    ],
+    "adverbs": [
+        {
+            "word": "vite",
+            "definition": "quickly"
+        },
+        {
+            "word": "lentement",
+            "definition": "slowly"
+        },
+        {
+            "word": "bien",
+            "definition": "well"
+        },
+        {
+            "word": "mal",
+            "definition": "badly"
+        },
+        {
+            "word": "souvent",
+            "definition": "often"
+        },
+        {
+            "word": "toujours",
+            "definition": "always"
+        },
+        {
+            "word": "jamais",
+            "definition": "never"
+        },
+        {
+            "word": "ici",
+            "definition": "here"
+        },
+        {
+            "word": "là",
+            "definition": "there"
+        },
+        {
+            "word": "maintenant",
+            "definition": "now"
+        }
+    ]
+}
