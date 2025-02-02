@@ -59,6 +59,7 @@ select {
     transition: transform 0.6s;
     margin: 0 auto;
     cursor: pointer;
+    touch-action: pan-y; /* Enable touch scrolling */
 }
 
 .flashcard.flipped {
