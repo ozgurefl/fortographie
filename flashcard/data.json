@@ -1,425 +1,425 @@
 {
     "flashcards": [
-      {
-        "category": "Addition",
-        "cards": [
-          {
-            "word": "aussi",
-            "translation": "also",
-            "example_fr": "J'aime le café, et j'aime aussi le thé.",
-            "example_en": "I like coffee, and I also like tea."
-          },
-          {
-            "word": "de plus",
-            "translation": "moreover/furthermore",
-            "example_fr": "Il est intelligent, de plus il est travailleur.",
-            "example_en": "He is intelligent, moreover he is hardworking."
-          },
-          {
-            "word": "de même",
-            "translation": "likewise/similarly",
-            "example_fr": "Pierre aime la musique, de même que sa sœur.",
-            "example_en": "Pierre likes music, likewise his sister."
-          },
-          {
-            "word": "de la même manière",
-            "translation": "in the same way",
-            "example_fr": "Elle étudie de la même manière que sa mère le faisait.",
-            "example_en": "She studies in the same way her mother did."
-          },
-          {
-            "word": "mais aussi",
-            "translation": "but also",
-            "example_fr": "Il parle non seulement français, mais aussi anglais.",
-            "example_en": "He speaks not only French, but also English."
-          },
-          {
-            "word": "également",
-            "translation": "also/as well",
-            "example_fr": "Mon frère aime également le sport.",
-            "example_en": "My brother likes sports as well."
-          }
-        ]
-      },
-      {
-        "category": "Cause",
-        "cards": [
-          {
-            "word": "à cause de",
-            "translation": "because of",
-            "example_fr": "Je suis en retard à cause du trafic.",
-            "example_en": "I'm late because of traffic."
-          },
-          {
-            "word": "car",
-            "translation": "because/for",
-            "example_fr": "Je reste à la maison car il pleut.",
-            "example_en": "I'm staying home because it's raining."
-          },
-          {
-            "word": "comme",
-            "translation": "as/since",
-            "example_fr": "Comme il fait beau, allons nous promener.",
-            "example_en": "As it's nice out, let's go for a walk."
-          },
-          {
-            "word": "dû à",
-            "translation": "due to",
-            "example_fr": "L'annulation est dû à la météo.",
-            "example_en": "The cancellation is due to the weather."
-          },
-          {
-            "word": "puisque",
-            "translation": "since",
-            "example_fr": "Puisque tu es là, on peut commencer.",
-            "example_en": "Since you're here, we can begin."
-          },
-          {
-            "word": "étant donné que",
-            "translation": "given that",
-            "example_fr": "Étant donné que vous êtes tous d'accord, nous pouvons continuer.",
-            "example_en": "Given that you all agree, we can continue."
-          },
-          {
-            "word": "grâce à",
-            "translation": "thanks to",
-            "example_fr": "J'ai réussi grâce à ton aide.",
-            "example_en": "I succeeded thanks to your help."
-          }
-        ]
-      },
-      {
-        "category": "Purpose",
-        "cards": [
-          {
-            "word": "afin de / afin que",
-            "translation": "in order to",
-            "example_fr": "Je travaille dur afin de réussir.",
-            "example_en": "I work hard in order to succeed."
-          },
-          {
-            "word": "avec l'intention de / avec l'objectif de",
-            "translation": "with the intention of",
-            "example_fr": "Il étudie avec l'objectif de devenir médecin.",
-            "example_en": "He studies with the objective of becoming a doctor."
-          },
-          {
-            "word": "pour / pour que",
-            "translation": "for/so that",
-            "example_fr": "Je fais du sport pour être en forme.",
-            "example_en": "I exercise to stay in shape."
-          },
-          {
-            "word": "de manière à ce que",
-            "translation": "so that",
-            "example_fr": "Parle plus fort de manière à ce que tout le monde t'entende.",
-            "example_en": "Speak louder so that everyone can hear you."
-          }
-        ]
-      },
-      {
-        "category": "Consequence",
-        "cards": [
-          {
-            "word": "donc",
-            "translation": "therefore/so",
-            "example_fr": "Il pleut, donc je prends mon parapluie.",
-            "example_en": "It's raining, therefore I'm taking my umbrella."
-          },
-          {
-            "word": "ainsi",
-            "translation": "thus",
-            "example_fr": "Il a beaucoup étudié, ainsi il a réussi son examen.",
-            "example_en": "He studied a lot, thus he passed his exam."
-          },
-          {
-            "word": "alors",
-            "translation": "so",
-            "example_fr": "Tu es fatigué, alors va te coucher.",
-            "example_en": "You're tired, so go to bed."
-          },
-          {
-            "word": "par conséquent",
-            "translation": "consequently",
-            "example_fr": "Il est malade, par conséquent il ne viendra pas.",
-            "example_en": "He is sick, consequently he won't come."
-          },
-          {
-            "word": "en conséquence",
-            "translation": "as a result",
-            "example_fr": "Le train est en retard, en conséquence nous manquerons notre correspondance.",
-            "example_en": "The train is late, as a result we'll miss our connection."
-          },
-          {
-            "word": "d'où",
-            "translation": "hence",
-            "example_fr": "Il n'a pas étudié, d'où son échec.",
-            "example_en": "He didn't study, hence his failure."
-          },
-          {
-            "word": "c'est pourquoi",
-            "translation": "that's why",
-            "example_fr": "Il aime la nature, c'est pourquoi il vit à la campagne.",
-            "example_en": "He loves nature, that's why he lives in the countryside."
-          },
-          {
-            "word": "pour cette raison",
-            "translation": "for this reason",
-            "example_fr": "Pour cette raison, nous devons partir tôt.",
-            "example_en": "For this reason, we must leave early."
-          }
-        ]
-      },
-      {
-        "category": "Condition",
-        "cards": [
-          {
-            "word": "si",
-            "translation": "if",
-            "example_fr": "Si tu viens, je serai content.",
-            "example_en": "If you come, I'll be happy."
-          },
-          {
-            "word": "à condition que",
-            "translation": "provided that",
-            "example_fr": "Je viendrai à condition que tu sois là.",
-            "example_en": "I'll come provided that you're there."
-          },
-          {
-            "word": "à moins que",
-            "translation": "unless",
-            "example_fr": "J'irai à la plage à moins qu'il pleuve.",
-            "example_en": "I'll go to the beach unless it rains."
-          },
-          {
-            "word": "au cas où",
-            "translation": "in case",
-            "example_fr": "Prends un parapluie au cas où il pleuvrait.",
-            "example_en": "Take an umbrella in case it rains."
-          },
-          {
-            "word": "pourvu que",
-            "translation": "as long as",
-            "example_fr": "Tout ira bien pourvu qu'il arrive à l'heure.",
-            "example_en": "Everything will be fine as long as he arrives on time."
-          },
-          {
-            "word": "tant que",
-            "translation": "as long as",
-            "example_fr": "Je t'attendrai tant que tu n'es pas là.",
-            "example_en": "I'll wait for you as long as you're not here."
-          }
-        ]
-      },
-      {
-        "category": "Opposition",
-        "cards": [
-          {
-            "word": "mais",
-            "translation": "but",
-            "example_fr": "J'aime le chocolat mais je suis au régime.",
-            "example_en": "I like chocolate but I'm on a diet."
-          },
-          {
-            "word": "au contraire",
-            "translation": "on the contrary",
-            "example_fr": "Il n'est pas paresseux, au contraire, il travaille dur.",
-            "example_en": "He's not lazy, on the contrary, he works hard."
-          },
-          {
-            "word": "cependant",
-            "translation": "however",
-            "example_fr": "Le film était bon, cependant la fin était décevante.",
-            "example_en": "The movie was good, however the ending was disappointing."
-          },
-          {
-            "word": "néanmoins",
-            "translation": "nevertheless",
-            "example_fr": "C'est difficile, néanmoins je vais essayer.",
-            "example_en": "It's difficult, nevertheless I'll try."
-          },
-          {
-            "word": "malgré",
-            "translation": "despite",
-            "example_fr": "Il est sorti malgré la pluie.",
-            "example_en": "He went out despite the rain."
-          },
-          {
-            "word": "même si",
-            "translation": "even if",
-            "example_fr": "Je viendrai même si il pleut.",
-            "example_en": "I'll come even if it rains."
-          },
-          {
-            "word": "bien que",
-            "translation": "although",
-            "example_fr": "Bien qu'il soit riche, il vit simplement.",
-            "example_en": "Although he's rich, he lives simply."
-          },
-          {
-            "word": "quoique",
-            "translation": "although/though",
-            "example_fr": "Je l'aime bien, quoique je ne le connaisse pas très bien.",
-            "example_en": "I like him, although I don't know him very well."
-          },
-          {
-            "word": "autrement",
-            "translation": "otherwise",
-            "example_fr": "Fais tes devoirs, autrement tu seras puni.",
-            "example_en": "Do your homework, otherwise you'll be punished."
-          },
-          {
-            "word": "toutefois",
-            "translation": "however",
-            "example_fr": "Le projet est intéressant, toutefois il y a des risques.",
-            "example_en": "The project is interesting, however there are risks."
-          },
-          {
-            "word": "pourtant",
-            "translation": "yet",
-            "example_fr": "Il est intelligent, pourtant il fait beaucoup d'erreurs.",
-            "example_en": "He is intelligent, yet he makes many mistakes."
-          },
-          {
-            "word": "par contre",
-            "translation": "on the other hand",
-            "example_fr": "Je n'aime pas le café, par contre j'adore le thé.",
-            "example_en": "I don't like coffee, on the other hand I love tea."
-          },
-          {
-            "word": "en revanche",
-            "translation": "however/on the other hand",
-            "example_fr": "Le restaurant est cher, en revanche la nourriture est excellente.",
-            "example_en": "The restaurant is expensive, however the food is excellent."
-          }
-        ]
-      },
-      {
-        "category": "To illustrate an idea / introduce an example",
-        "cards": [
-          {
-            "word": "par exemple",
-            "translation": "for example",
-            "example_fr": "J'aime plusieurs sports, par exemple le tennis.",
-            "example_en": "I like several sports, for example tennis."
-          },
-          {
-            "word": "en d'autres termes",
-            "translation": "in other words",
-            "example_fr": "C'est compliqué, en d'autres termes c'est difficile à comprendre.",
-            "example_en": "It's complicated, in other words it's difficult to understand."
-          },
-          {
-            "word": "c'est-à-dire",
-            "translation": "that is to say",
-            "example_fr": "Je suis végétarien, c'est-à-dire je ne mange pas de viande.",
-            "example_en": "I'm vegetarian, that is to say I don't eat meat."
-          }
-        ]
-      },
-      {
-        "category": "To introduce an idea",
-        "cards": [
-          {
-            "word": "pour commencer",
-            "translation": "to begin with",
-            "example_fr": "Pour commencer, parlons de vos objectifs.",
-            "example_en": "To begin with, let's talk about your objectives."
-          },
-          {
-            "word": "tout d'abord",
-            "translation": "first of all",
-            "example_fr": "Tout d'abord, je voudrais vous remercier.",
-            "example_en": "First of all, I would like to thank you."
-          },
-          {
-            "word": "avant tout",
-            "translation": "above all",
-            "example_fr": "Avant tout, il faut rester calme.",
-            "example_en": "Above all, we must stay calm."
-          },
-          {
-            "word": "premièrement",
-            "translation": "firstly",
-            "example_fr": "Premièrement, lisez les instructions.",
-            "example_en": "Firstly, read the instructions."
-          },
-          {
-            "word": "en premier lieu",
-            "translation": "in the first place",
-            "example_fr": "En premier lieu, nous devons définir nos priorités.",
-            "example_en": "In the first place, we need to define our priorities."
-          }
-        ]
-      },
-      {
-        "category": "To conclude",
-        "cards": [
-          {
-            "word": "pour conclure",
-            "translation": "to conclude",
-            "example_fr": "Pour conclure, je dirais que c'est un bon projet.",
-            "example_en": "To conclude, I would say it's a good project."
-          },
-          {
-            "word": "pour finir",
-            "translation": "finally",
-            "example_fr": "Pour finir, je voudrais remercier tout le monde.",
-            "example_en": "Finally, I would like to thank everyone."
-          },
-          {
-            "word": "enfin",
-            "translation": "finally/at last",
-            "example_fr": "Enfin, nous sommes arrivés!",
-            "example_en": "At last, we have arrived!"
-          }
-        ]
-      },
-      {
-        "category": "To summarize",
-        "cards": [
-          {
-            "word": "en un mot",
-            "translation": "in a word",
-            "example_fr": "En un mot, c'était parfait.",
-            "example_en": "In a word, it was perfect."
-          },
-          {
-            "word": "en somme",
-            "translation": "in sum",
-            "example_fr": "En somme, c'était une bonne journée.",
-            "example_en": "In sum, it was a good day."
-          },
-          {
-            "word": "en résumé",
-            "translation": "in summary",
-            "example_fr": "En résumé, voici les points principaux.",
-            "example_en": "In summary, here are the main points."
-          }
-        ]
-      },
-      {
-        "category": "To reference something or someone",
-        "cards": [
-          {
-            "word": "d'après",
-            "translation": "according to",
-            "example_fr": "D'après Marie, il va pleuvoir demain.",
-            "example_en": "According to Marie, it will rain tomorrow."
-          },
-          {
-            "word": "selon",
-            "translation": "according to",
-            "example_fr": "Selon les experts, la situation va s'améliorer.",
-            "example_en": "According to experts, the situation will improve."
-          },
-          {
-            "word": "comme mentionné",
-            "translation": "as mentioned",
-            "example_fr": "Comme mentionné précédemment, nous devons être prudents.",
-            "example_en": "As mentioned previously, we must be careful."
-          }
-        ]
-      }
+        {
+            "category": "Addition",
+            "cards": [
+                {
+                    "word": "aussi",
+                    "translation": "also",
+                    "example_fr": "J'aime le café, et j'aime aussi le thé.",
+                    "example_en": "I like coffee, and I also like tea."
+                },
+                {
+                    "word": "de plus",
+                    "translation": "moreover/furthermore",
+                    "example_fr": "Il est intelligent, de plus il est travailleur.",
+                    "example_en": "He is intelligent, moreover he is hardworking."
+                },
+                {
+                    "word": "de même",
+                    "translation": "likewise/similarly",
+                    "example_fr": "Pierre aime la musique, de même que sa sœur.",
+                    "example_en": "Pierre likes music, likewise his sister."
+                },
+                {
+                    "word": "de la même manière",
+                    "translation": "in the same way",
+                    "example_fr": "Elle étudie de la même manière que sa mère le faisait.",
+                    "example_en": "She studies in the same way her mother did."
+                },
+                {
+                    "word": "mais aussi",
+                    "translation": "but also",
+                    "example_fr": "Il parle non seulement français, mais aussi anglais.",
+                    "example_en": "He speaks not only French, but also English."
+                },
+                {
+                    "word": "également",
+                    "translation": "also/as well",
+                    "example_fr": "Mon frère aime également le sport.",
+                    "example_en": "My brother likes sports as well."
+                }
+            ]
+        },
+        {
+            "category": "Cause",
+            "cards": [
+                {
+                    "word": "à cause de",
+                    "translation": "because of",
+                    "example_fr": "Je suis en retard à cause du trafic.",
+                    "example_en": "I'm late because of traffic."
+                },
+                {
+                    "word": "car",
+                    "translation": "because/for",
+                    "example_fr": "Je reste à la maison car il pleut.",
+                    "example_en": "I'm staying home because it's raining."
+                },
+                {
+                    "word": "comme",
+                    "translation": "as/since",
+                    "example_fr": "Comme il fait beau, allons nous promener.",
+                    "example_en": "As it's nice out, let's go for a walk."
+                },
+                {
+                    "word": "dû à",
+                    "translation": "due to",
+                    "example_fr": "L'annulation est dû à la météo.",
+                    "example_en": "The cancellation is due to the weather."
+                },
+                {
+                    "word": "puisque",
+                    "translation": "since",
+                    "example_fr": "Puisque tu es là, on peut commencer.",
+                    "example_en": "Since you're here, we can begin."
+                },
+                {
+                    "word": "étant donné que",
+                    "translation": "given that",
+                    "example_fr": "Étant donné que vous êtes tous d'accord, nous pouvons continuer.",
+                    "example_en": "Given that you all agree, we can continue."
+                },
+                {
+                    "word": "grâce à",
+                    "translation": "thanks to",
+                    "example_fr": "J'ai réussi grâce à ton aide.",
+                    "example_en": "I succeeded thanks to your help."
+                }
+            ]
+        },
+        {
+            "category": "Purpose",
+            "cards": [
+                {
+                    "word": "afin de / afin que",
+                    "translation": "in order to",
+                    "example_fr": "Je travaille dur afin de réussir.",
+                    "example_en": "I work hard in order to succeed."
+                },
+                {
+                    "word": "avec l'intention de / avec l'objectif de",
+                    "translation": "with the intention of",
+                    "example_fr": "Il étudie avec l'objectif de devenir médecin.",
+                    "example_en": "He studies with the objective of becoming a doctor."
+                },
+                {
+                    "word": "pour / pour que",
+                    "translation": "for/so that",
+                    "example_fr": "Je fais du sport pour être en forme.",
+                    "example_en": "I exercise to stay in shape."
+                },
+                {
+                    "word": "de manière à ce que",
+                    "translation": "so that",
+                    "example_fr": "Parle plus fort de manière à ce que tout le monde t'entende.",
+                    "example_en": "Speak louder so that everyone can hear you."
+                }
+            ]
+        },
+        {
+            "category": "Consequence",
+            "cards": [
+                {
+                    "word": "donc",
+                    "translation": "therefore/so",
+                    "example_fr": "Il pleut, donc je prends mon parapluie.",
+                    "example_en": "It's raining, therefore I'm taking my umbrella."
+                },
+                {
+                    "word": "ainsi",
+                    "translation": "thus",
+                    "example_fr": "Il a beaucoup étudié, ainsi il a réussi son examen.",
+                    "example_en": "He studied a lot, thus he passed his exam."
+                },
+                {
+                    "word": "alors",
+                    "translation": "so",
+                    "example_fr": "Tu es fatigué, alors va te coucher.",
+                    "example_en": "You're tired, so go to bed."
+                },
+                {
+                    "word": "par conséquent",
+                    "translation": "consequently",
+                    "example_fr": "Il est malade, par conséquent il ne viendra pas.",
+                    "example_en": "He is sick, consequently he won't come."
+                },
+                {
+                    "word": "en conséquence",
+                    "translation": "as a result",
+                    "example_fr": "Le train est en retard, en conséquence nous manquerons notre correspondance.",
+                    "example_en": "The train is late, as a result we'll miss our connection."
+                },
+                {
+                    "word": "d'où",
+                    "translation": "hence",
+                    "example_fr": "Il n'a pas étudié, d'où son échec.",
+                    "example_en": "He didn't study, hence his failure."
+                },
+                {
+                    "word": "c'est pourquoi",
+                    "translation": "that's why",
+                    "example_fr": "Il aime la nature, c'est pourquoi il vit à la campagne.",
+                    "example_en": "He loves nature, that's why he lives in the countryside."
+                },
+                {
+                    "word": "pour cette raison",
+                    "translation": "for this reason",
+                    "example_fr": "Pour cette raison, nous devons partir tôt.",
+                    "example_en": "For this reason, we must leave early."
+                }
+            ]
+        },
+        {
+            "category": "Condition",
+            "cards": [
+                {
+                    "word": "si",
+                    "translation": "if",
+                    "example_fr": "Si tu viens, je serai content.",
+                    "example_en": "If you come, I'll be happy."
+                },
+                {
+                    "word": "à condition que",
+                    "translation": "provided that",
+                    "example_fr": "Je viendrai à condition que tu sois là.",
+                    "example_en": "I'll come provided that you're there."
+                },
+                {
+                    "word": "à moins que",
+                    "translation": "unless",
+                    "example_fr": "J'irai à la plage à moins qu'il pleuve.",
+                    "example_en": "I'll go to the beach unless it rains."
+                },
+                {
+                    "word": "au cas où",
+                    "translation": "in case",
+                    "example_fr": "Prends un parapluie au cas où il pleuvrait.",
+                    "example_en": "Take an umbrella in case it rains."
+                },
+                {
+                    "word": "pourvu que",
+                    "translation": "as long as",
+                    "example_fr": "Tout ira bien pourvu qu'il arrive à l'heure.",
+                    "example_en": "Everything will be fine as long as he arrives on time."
+                },
+                {
+                    "word": "tant que",
+                    "translation": "as long as",
+                    "example_fr": "Je t'attendrai tant que tu n'es pas là.",
+                    "example_en": "I'll wait for you as long as you're not here."
+                }
+            ]
+        },
+        {
+            "category": "Opposition",
+            "cards": [
+                {
+                    "word": "mais",
+                    "translation": "but",
+                    "example_fr": "J'aime le chocolat mais je suis au régime.",
+                    "example_en": "I like chocolate but I'm on a diet."
+                },
+                {
+                    "word": "au contraire",
+                    "translation": "on the contrary",
+                    "example_fr": "Il n'est pas paresseux, au contraire, il travaille dur.",
+                    "example_en": "He's not lazy, on the contrary, he works hard."
+                },
+                {
+                    "word": "cependant",
+                    "translation": "however",
+                    "example_fr": "Le film était bon, cependant la fin était décevante.",
+                    "example_en": "The movie was good, however the ending was disappointing."
+                },
+                {
+                    "word": "néanmoins",
+                    "translation": "nevertheless",
+                    "example_fr": "C'est difficile, néanmoins je vais essayer.",
+                    "example_en": "It's difficult, nevertheless I'll try."
+                },
+                {
+                    "word": "malgré",
+                    "translation": "despite",
+                    "example_fr": "Il est sorti malgré la pluie.",
+                    "example_en": "He went out despite the rain."
+                },
+                {
+                    "word": "même si",
+                    "translation": "even if",
+                    "example_fr": "Je viendrai même si il pleut.",
+                    "example_en": "I'll come even if it rains."
+                },
+                {
+                    "word": "bien que",
+                    "translation": "although",
+                    "example_fr": "Bien qu'il soit riche, il vit simplement.",
+                    "example_en": "Although he's rich, he lives simply."
+                },
+                {
+                    "word": "quoique",
+                    "translation": "although/though",
+                    "example_fr": "Je l'aime bien, quoique je ne le connaisse pas très bien.",
+                    "example_en": "I like him, although I don't know him very well."
+                },
+                {
+                    "word": "autrement",
+                    "translation": "otherwise",
+                    "example_fr": "Fais tes devoirs, autrement tu seras puni.",
+                    "example_en": "Do your homework, otherwise you'll be punished."
+                },
+                {
+                    "word": "toutefois",
+                    "translation": "however",
+                    "example_fr": "Le projet est intéressant, toutefois il y a des risques.",
+                    "example_en": "The project is interesting, however there are risks."
+                },
+                {
+                    "word": "pourtant",
+                    "translation": "yet",
+                    "example_fr": "Il est intelligent, pourtant il fait beaucoup d'erreurs.",
+                    "example_en": "He is intelligent, yet he makes many mistakes."
+                },
+                {
+                    "word": "par contre",
+                    "translation": "on the other hand",
+                    "example_fr": "Je n'aime pas le café, par contre j'adore le thé.",
+                    "example_en": "I don't like coffee, on the other hand I love tea."
+                },
+                {
+                    "word": "en revanche",
+                    "translation": "however/on the other hand",
+                    "example_fr": "Le restaurant est cher, en revanche la nourriture est excellente.",
+                    "example_en": "The restaurant is expensive, however the food is excellent."
+                }
+            ]
+        },
+        {
+            "category": "To illustrate an idea / introduce an example",
+            "cards": [
+                {
+                    "word": "par exemple",
+                    "translation": "for example",
+                    "example_fr": "J'aime plusieurs sports, par exemple le tennis.",
+                    "example_en": "I like several sports, for example tennis."
+                },
+                {
+                    "word": "en d'autres termes",
+                    "translation": "in other words",
+                    "example_fr": "C'est compliqué, en d'autres termes c'est difficile à comprendre.",
+                    "example_en": "It's complicated, in other words it's difficult to understand."
+                },
+                {
+                    "word": "c'est-à-dire",
+                    "translation": "that is to say",
+                    "example_fr": "Je suis végétarien, c'est-à-dire je ne mange pas de viande.",
+                    "example_en": "I'm vegetarian, that is to say I don't eat meat."
+                }
+            ]
+        },
+        {
+            "category": "To introduce an idea",
+            "cards": [
+                {
+                    "word": "pour commencer",
+                    "translation": "to begin with",
+                    "example_fr": "Pour commencer, parlons de vos objectifs.",
+                    "example_en": "To begin with, let's talk about your objectives."
+                },
+                {
+                    "word": "tout d'abord",
+                    "translation": "first of all",
+                    "example_fr": "Tout d'abord, je voudrais vous remercier.",
+                    "example_en": "First of all, I would like to thank you."
+                },
+                {
+                    "word": "avant tout",
+                    "translation": "above all",
+                    "example_fr": "Avant tout, il faut rester calme.",
+                    "example_en": "Above all, we must stay calm."
+                },
+                {
+                    "word": "premièrement",
+                    "translation": "firstly",
+                    "example_fr": "Premièrement, lisez les instructions.",
+                    "example_en": "Firstly, read the instructions."
+                },
+                {
+                    "word": "en premier lieu",
+                    "translation": "in the first place",
+                    "example_fr": "En premier lieu, nous devons définir nos priorités.",
+                    "example_en": "In the first place, we need to define our priorities."
+                }
+            ]
+        },
+        {
+            "category": "To conclude",
+            "cards": [
+                {
+                    "word": "pour conclure",
+                    "translation": "to conclude",
+                    "example_fr": "Pour conclure, je dirais que c'est un bon projet.",
+                    "example_en": "To conclude, I would say it's a good project."
+                },
+                {
+                    "word": "pour finir",
+                    "translation": "finally",
+                    "example_fr": "Pour finir, je voudrais remercier tout le monde.",
+                    "example_en": "Finally, I would like to thank everyone."
+                },
+                {
+                    "word": "enfin",
+                    "translation": "finally/at last",
+                    "example_fr": "Enfin, nous sommes arrivés!",
+                    "example_en": "At last, we have arrived!"
+                }
+            ]
+        },
+        {
+            "category": "To summarize",
+            "cards": [
+                {
+                    "word": "en un mot",
+                    "translation": "in a word",
+                    "example_fr": "En un mot, c'était parfait.",
+                    "example_en": "In a word, it was perfect."
+                },
+                {
+                    "word": "en somme",
+                    "translation": "in sum",
+                    "example_fr": "En somme, c'était une bonne journée.",
+                    "example_en": "In sum, it was a good day."
+                },
+                {
+                    "word": "en résumé",
+                    "translation": "in summary",
+                    "example_fr": "En résumé, voici les points principaux.",
+                    "example_en": "In summary, here are the main points."
+                }
+            ]
+        },
+        {
+            "category": "To reference something or someone",
+            "cards": [
+                {
+                    "word": "d'après",
+                    "translation": "according to",
+                    "example_fr": "D'après Marie, il va pleuvoir demain.",
+                    "example_en": "According to Marie, it will rain tomorrow."
+                },
+                {
+                    "word": "selon",
+                    "translation": "according to",
+                    "example_fr": "Selon les experts, la situation va s'améliorer.",
+                    "example_en": "According to experts, the situation will improve."
+                },
+                {
+                    "word": "comme mentionné",
+                    "translation": "as mentioned",
+                    "example_fr": "Comme mentionné précédemment, nous devons être prudents.",
+                    "example_en": "As mentioned previously, we must be careful."
+                }
+            ]
+        }
     ]
-  }
+}
