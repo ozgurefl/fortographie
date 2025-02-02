@@ -66,12 +66,17 @@ userInput.addEventListener('input', () => {
   for (let i = 0; i < correctSentence.length; i++) {
     const charSpan = document.createElement("span");
     charSpan.textContent = correctSentence[i];
+    charSpan.style.fontFamily = 'Monospace';
+    charSpan.style.backgroundColor = '#f6f8fa';
+    charSpan.style.padding = '2px 4px';
+    charSpan.style.borderRadius = '4px';
+    charSpan.style.margin = '0 1px';
 
     if (i < userText.length) {
       if (userText[i] === correctSentence[i]) {
-        charSpan.classList.add("correct"); // Correct character
+        charSpan.style.color = "#28a745"; // GitHub green
       } else {
-        charSpan.classList.add("incorrect"); // Incorrect character
+        charSpan.style.color = "#d73a49"; // GitHub red
       }
     }
 
@@ -80,8 +85,8 @@ userInput.addEventListener('input', () => {
 
   // Check if the entire sentence is correct
   if (userText === correctSentence) {
-    feedback.textContent = "Correct!";
-    feedback.style.color = "green";
+    feedback.textContent = "✔ Correct!";
+    feedback.style.color = "#28a745";
     correctCount++;
     progressCount.textContent = correctCount;
     setTimeout(() => {
@@ -89,13 +94,13 @@ userInput.addEventListener('input', () => {
       if (currentSentenceIndex < currentSet.length) {
         displaySentence();
       } else {
-        feedback.textContent = "Congratulations! You've completed all sentences.";
+        feedback.textContent = "🎉 Congratulations! You've completed all sentences.";
         userInput.disabled = true;
       }
     }, 1000);
   } else {
     feedback.textContent = "Keep typing...";
-    feedback.style.color = "black";
+    feedback.style.color = "#0366d6"; // GitHub blue
   }
 });
 
