@@ -9,6 +9,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme {
+  background-color: #121212; /* Dark background */
+  color: #cccccc; /* Darker gray for text */
 }
 
 .container {
@@ -19,12 +25,22 @@ body {
   width: 100%;
   max-width: 600px;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme .container {
+  background-color: #1e1e1e; /* Darker container background */
+  color: #cccccc; /* Darker gray for text */
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #333;
+}
+
+body.dark-theme h1 {
+  color: #cccccc; /* Darker gray for headings */
 }
 
 .controls {
@@ -36,6 +52,10 @@ label {
   color: #555;
 }
 
+body.dark-theme label {
+  color: #999999; /* Slightly lighter gray for labels */
+}
+
 select {
   width: 100%;
   padding: 0.75rem;
@@ -45,6 +65,13 @@ select {
   margin-top: 0.5rem;
   background-color: #f8f9fa;
   color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-theme select {
+  background-color: #2d2d2d; /* Darker background for dropdown */
+  color: #cccccc; /* Darker gray for dropdown text */
+  border-color: #444; /* Darker border for dropdown */
 }
 
 #sentence-display {
@@ -54,6 +81,12 @@ select {
   background-color: #f8f9fa;
   border-radius: 8px;
   white-space: pre-wrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme #sentence-display {
+  background-color: #2d2d2d; /* Darker background for sentence display */
+  color: #cccccc; /* Darker gray for sentence text */
 }
 
 textarea {
@@ -67,6 +100,13 @@ textarea {
   resize: none;
   background-color: #f8f9fa;
   color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-theme textarea {
+  background-color: #2d2d2d; /* Darker background for textarea */
+  color: #cccccc; /* Darker gray for textarea text */
+  border-color: #444; /* Darker border for textarea */
 }
 
 #feedback {
@@ -102,12 +142,35 @@ textarea {
   color: #555;
 }
 
+body.dark-theme #progress {
+  color: #999999; /* Slightly lighter gray for progress text */
+}
+
 .correct {
   color: #28a745;
 }
 
 .incorrect {
   color: #dc3545;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.theme-toggle button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+body.dark-theme .theme-toggle button {
+  color: #cccccc; /* Darker gray for theme toggle button */
 }
 
 /* Responsive Design */
