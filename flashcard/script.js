@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
     let flashcards = [];
     let currentSet = '';
+    let isFlipped = false;
 
     // Fetch the JSON data
     fetch('data.json')
@@ -35,8 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateFlashcard() {
         if (flashcards.length > 0) {
             wordElement.textContent = flashcards[currentIndex].word;
-            definitionElement.textContent = flashcards[currentIndex].translation;
+            definitionElement.innerHTML = `<strong>${flashcards[currentIndex].translation}</strong><br><em>${flashcards[currentIndex].example_fr}</em><br>${flashcards[currentIndex].example_en}`;
+            resetFlashcard();
         }
+    }
+
+    function resetFlashcard() {
+        flashcard.classList.remove('flipped');
+        isFlipped = false;
     }
 
     setSelector.addEventListener('change', (event) => {
@@ -59,4 +66,34 @@ document.addEventListener('DOMContentLoaded', () => {
             updateFlashcard();
         }
     });
+
+    flashcard.addEventListener('click', () => {
+        flashcard.classList.toggle('flipped');
+        isFlipped = !isFlipped;
+    });
+
+    // Add keyboard support
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowRight') {
+            nextBtn.click();
+        } else if (event.key === 'ArrowLeft') {
+            prevBtn.click();
+        } else if (event.key === ' ') {
+            flashcard.click();
+        }
+    });
+
+    // Adjust flashcard size based on screen size
+    function adjustFlashcardSize() {
+        if (window.innerWidth > 768) {
+            flashcard.style.width = '400px';
+            flashcard.style.height = '250px';
+        } else {
+            flashcard.style.width = '300px';
+            flashcard.style.height = '200px';
+        }
+    }
+
+    window.addEventListener('resize', adjustFlashcardSize);
+    adjustFlashcardSize();
 });
