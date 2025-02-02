@@ -1,194 +1,66 @@
-/* General Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body.dark-theme {
-  background-color: #121212; /* Dark background */
-  color: #cccccc; /* Darker gray for text */
-}
-
-.container {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 600px;
-  text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body.dark-theme .container {
-  background-color: #1e1e1e; /* Darker container background */
-  color: #cccccc; /* Darker gray for text */
-}
-
-h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #333;
-}
-
-body.dark-theme h1 {
-  color: #cccccc; /* Darker gray for headings */
-}
-
-.controls {
-  margin-bottom: 1.5rem;
-}
-
-label {
-  font-size: 1rem;
-  color: #555;
-}
-
-body.dark-theme label {
-  color: #999999; /* Slightly lighter gray for labels */
-}
-
-select {
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin-top: 0.5rem;
-  background-color: #f8f9fa;
-  color: #333;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-
-body.dark-theme select {
-  background-color: #2d2d2d; /* Darker background for dropdown */
-  color: #cccccc; /* Darker gray for dropdown text */
-  border-color: #444; /* Darker border for dropdown */
-}
-
-#sentence-display {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  white-space: pre-wrap;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-body.dark-theme #sentence-display {
-  background-color: #2d2d2d; /* Darker background for sentence display */
-  color: #cccccc; /* Darker gray for sentence text */
-}
-
-textarea {
-  width: 100%;
-  height: 120px;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  resize: none;
-  background-color: #f8f9fa;
-  color: #333;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-
-body.dark-theme textarea {
-  background-color: #2d2d2d; /* Darker background for textarea */
-  color: #cccccc; /* Darker gray for textarea text */
-  border-color: #444; /* Darker border for textarea */
-}
-
-#feedback {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-#virtual-keyboard {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-#virtual-keyboard button {
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: none;
-  background-color: #007bff;
-  color: #fff;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#virtual-keyboard button:hover {
-  background-color: #0056b3;
-}
-
-#progress {
-  font-size: 1.2rem;
-  color: #555;
-}
-
-body.dark-theme #progress {
-  color: #999999; /* Slightly lighter gray for progress text */
-}
-
-.correct {
-  color: #28a745;
-}
-
-.incorrect {
-  color: #dc3545;
-}
-
-.theme-toggle {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
-.theme-toggle button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #333;
-  transition: color 0.3s ease;
-}
-
-body.dark-theme .theme-toggle button {
-  color: #cccccc; /* Darker gray for theme toggle button */
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  #sentence-display {
-    font-size: 1.2rem;
-  }
-
-  textarea {
-    height: 100px;
-  }
-
-  #virtual-keyboard button {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French Writing Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">🌙</button>
+    </div>
+    <h1>French Writing Practice</h1>
+    <div class="controls">
+      <label for="sentence-set">Choose a sentence set:</label>
+      <select id="sentence-set">
+        <option value="set1">Set 1: Basic Sentences</option>
+        <option value="set2">Set 2: Intermediate Sentences</option>
+        <option value="set3">Set 3: Advanced Sentences</option>
+      </select>
+    </div>
+    <div id="sentence-display"></div>
+    <textarea id="user-input" placeholder="Type the sentence here..."></textarea>
+    <div id="feedback"></div>
+    <div id="virtual-keyboard">
+      <!-- Lowercase special characters -->
+      <button data-char="é">é</button>
+      <button data-char="è">è</button>
+      <button data-char="ê">ê</button>
+      <button data-char="ë">ë</button>
+      <button data-char="à">à</button>
+      <button data-char="â">â</button>
+      <button data-char="ä">ä</button>
+      <button data-char="ç">ç</button>
+      <button data-char="î">î</button>
+      <button data-char="ï">ï</button>
+      <button data-char="ô">ô</button>
+      <button data-char="œ">œ</button>
+      <button data-char="ù">ù</button>
+      <button data-char="û">û</button>
+      <button data-char="ü">ü</button>
+      <!-- Uppercase special characters -->
+      <button data-char="É">É</button>
+      <button data-char="È">È</button>
+      <button data-char="Ê">Ê</button>
+      <button data-char="Ë">Ë</button>
+      <button data-char="À">À</button>
+      <button data-char="Â">Â</button>
+      <button data-char="Ä">Ä</button>
+      <button data-char="Ç">Ç</button>
+      <button data-char="Î">Î</button>
+      <button data-char="Ï">Ï</button>
+      <button data-char="Ô">Ô</button>
+      <button data-char="Œ">Œ</button>
+      <button data-char="Ù">Ù</button>
+      <button data-char="Û">Û</button>
+      <button data-char="Ü">Ü</button>
+    </div>
+    <div id="progress">
+      <p>Progress: <span id="progress-count">0</span>/<span id="total-sentences">0</span></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
