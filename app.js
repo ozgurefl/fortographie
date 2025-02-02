@@ -10,6 +10,7 @@ const progressCount = document.getElementById('progress-count');
 const totalSentences = document.getElementById('total-sentences');
 const virtualKeyboard = document.getElementById('virtual-keyboard');
 const sentenceSetDropdown = document.getElementById('sentence-set');
+const themeToggleBtn = document.getElementById('theme-toggle-btn');
 
 // Fetch sentences from a JSON file
 async function fetchSentences(setName) {
@@ -113,8 +114,26 @@ virtualKeyboard.addEventListener('click', (e) => {
   }
 });
 
-// Initialize with the default set
+// Theme toggle functionality
+themeToggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme');
+  const isDarkTheme = document.body.classList.contains('dark-theme');
+  themeToggleBtn.textContent = isDarkTheme ? '☀️' : '🌙';
+  localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
+});
+
+// Initialize with the default set and theme
 (async function initialize() {
   currentSet = await fetchSentences("set1");
   updateSentenceSet();
+
+  // Set theme based on localStorage
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    document.body.classList.add('dark-theme');
+    themeToggleBtn.textContent = '☀️';
+  } else {
+    document.body.classList.remove('dark-theme');
+    themeToggleBtn.textContent = '🌙';
+  }
 })();
