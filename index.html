@@ -9,13 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             background-color: #f4f4f4;
             text-align: center;
         }
         .container {
             background: white;
             padding: 30px;
-            margin: 20px;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
@@ -38,62 +41,17 @@
         .btn:hover {
             background-color: #0056b3;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
     </style>
-    <script>
-        function loadMarkdown(file, sectionId) {
-            fetch(file)
-                .then(response => response.text())
-                .then(text => {
-                    document.getElementById(sectionId).innerHTML = `<pre>${text}</pre>`;
-                });
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            loadMarkdown('lessons.md', 'lessons');
-            loadMarkdown('exercises.md', 'exercises');
-            loadMarkdown('dictees.md', 'dictees');
-            loadMarkdown('grammaire.md', 'grammaire');
-            loadMarkdown('vocabulaire.md', 'vocabulaire');
-        });
-    </script>
 </head>
 <body>
     <div class="container">
         <h1>Bienvenue sur Apprendre le Français</h1>
         <p>Découvrez des ressources pour améliorer votre maîtrise du français.</p>
-        <a href="#lessons" class="btn">Leçons</a>
-        <a href="#exercises" class="btn">Exercices</a>
+        <a href="index1.html" class="btn">Leçons</a>
+        <a href="index2.html" class="btn">Exercices</a>
         <a href="fortographie/index.html" class="btn">Dictées</a>
-        <a href="#grammaire" class="btn">Grammaire</a>
+        <a href="index4.html" class="btn">Grammaire</a>
         <a href="flashcard/index.html" class="btn">Vocabulaire</a>
     </div>
-
-    <section id="lessons">
-        <h2>Leçons</h2>
-    </section>
-    
-    <section id="exercises">
-        <h2>Exercices</h2>
-    </section>
-    
-    <section id="dictees">
-        <h2>Dictées</h2>
-    </section>
-    
-    <section id="grammaire">
-        <h2>Grammaire</h2>
-    </section>
-    
-    <section id="vocabulaire">
-        <h2>Vocabulaire</h2>
-    </section>
 </body>
 </html>
