@@ -26,6 +26,11 @@ async function fetchSentences(setName) {
   }
 }
 
+// Function to normalize apostrophes
+function normalizeText(text) {
+  return text.replace(/’/g, "'"); // Replace curly apostrophe with straight apostrophe
+}
+
 // Update sentence set based on user selection
 sentenceSetDropdown.addEventListener('change', async () => {
   const selectedSet = sentenceSetDropdown.value;
@@ -51,8 +56,8 @@ function displaySentence() {
 
 // Check user input in real-time
 userInput.addEventListener('input', () => {
-  const userText = userInput.value;
-  const correctSentence = currentSet[currentSentenceIndex];
+  const userText = normalizeText(userInput.value);
+  const correctSentence = normalizeText(currentSet[currentSentenceIndex]);
 
   // Clear previous feedback
   sentenceDisplay.innerHTML = "";
