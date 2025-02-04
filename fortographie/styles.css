@@ -173,6 +173,31 @@ body.dark-theme .theme-toggle button {
   color: #cccccc; /* Darker gray for theme toggle button */
 }
 
+/* Listen Button Styles */
+#listen-btn {
+  margin-left: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745; /* Green color for the listen button */
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#listen-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+body.dark-theme #listen-btn {
+  background-color: #218838; /* Darker green for dark theme */
+}
+
+body.dark-theme #listen-btn:hover {
+  background-color: #1e7e34; /* Even darker green on hover in dark theme */
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -190,5 +215,10 @@ body.dark-theme .theme-toggle button {
   #virtual-keyboard button {
     padding: 0.5rem;
     font-size: 0.9rem;
+  }
+
+  #listen-btn {
+    padding: 0.5rem 1rem; /* Smaller padding for mobile */
+    font-size: 0.9rem; /* Smaller font size for mobile */
   }
 }
