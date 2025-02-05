@@ -43,6 +43,7 @@ sentenceSetDropdown.addEventListener('change', async () => {
 
 // Update the displayed sentence and progress
 function updateSentenceSet() {
+  shuffleArray(currentSet); // Shuffle before displaying
   totalSentences.textContent = currentSet.length;
   progressCount.textContent = correctCount;
   displaySentence();
