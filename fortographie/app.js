@@ -53,6 +53,14 @@ function displaySentence() {
   sentenceDisplay.textContent = currentSet[currentSentenceIndex];
   userInput.value = "";
   feedback.textContent = "";
+
+  // Auto-play TTS when a new sentence appears
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(currentSet[currentSentenceIndex]);
+    utterance.lang = 'fr-FR';
+    utterance.rate = 0.9;
+    speechSynthesis.speak(utterance);
+  }
 }
 
 // Check user input in real-time
