@@ -38,41 +38,18 @@
 
     /* Cards */
     .card {
-      perspective: 1000px;
-      width: 100%;
-      height: 200px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.6s;
-      transform-style: preserve-3d;
-    }
-    .card.flipped .card-inner {
-      transform: rotateY(180deg);
-    }
-    .card-front,
-    .card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
+      background-color: #ffffff;
+      padding: 15px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
       overflow: hidden;
+      max-height: 150px; /* Limit initial height */
     }
-    .card-front {
-      background-color: #ffffff;
-    }
-    .card-back {
-      background-color: #f6f8fa;
-      transform: rotateY(180deg);
-      overflow-y: auto; /* Enable scrolling for long content */
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
     .card h3 {
       margin-top: 0;
@@ -121,12 +98,8 @@
       background-color: #1e1e1e;
       color: #c9d1d9;
     }
-    body.dark-mode .card-front {
+    body.dark-mode .card {
       background-color: #2a2a2a;
-      color: #c9d1d9;
-    }
-    body.dark-mode .card-back {
-      background-color: #30363d;
       color: #c9d1d9;
     }
     body.dark-mode .expanded-card {
@@ -163,44 +136,20 @@
   <div class="card-container">
     <!-- Card 1 -->
     <div class="card" data-file="topic1.md">
-      <div class="card-inner">
-        <div class="card-front">
-          <h3>Loading...</h3>
-          <p class="preview"></p>
-        </div>
-        <div class="card-back">
-          <h3>Full Content</h3>
-          <p class="full-content"></p>
-        </div>
-      </div>
+      <h3>Loading...</h3>
+      <p class="preview"></p>
     </div>
 
     <!-- Card 2 -->
     <div class="card" data-file="topic2.md">
-      <div class="card-inner">
-        <div class="card-front">
-          <h3>Loading...</h3>
-          <p class="preview"></p>
-        </div>
-        <div class="card-back">
-          <h3>Full Content</h3>
-          <p class="full-content"></p>
-        </div>
-      </div>
+      <h3>Loading...</h3>
+      <p class="preview"></p>
     </div>
 
     <!-- Card 3 -->
     <div class="card" data-file="topic3.md">
-      <div class="card-inner">
-        <div class="card-front">
-          <h3>Loading...</h3>
-          <p class="preview"></p>
-        </div>
-        <div class="card-back">
-          <h3>Full Content</h3>
-          <p class="full-content"></p>
-        </div>
-      </div>
+      <h3>Loading...</h3>
+      <p class="preview"></p>
     </div>
   </div>
 
@@ -213,7 +162,6 @@
     // Function to load Markdown content into cards
     document.querySelectorAll('.card').forEach(card => {
       const previewDiv = card.querySelector('.preview');
-      const fullContentDiv = card.querySelector('.full-content');
       const file = card.getAttribute('data-file');
 
       fetch(file)
@@ -230,30 +178,30 @@
           const mainTitle = tempDiv.querySelector('h1')?.textContent || 'No Title';
 
           // Update the card title with the main title
-          const cardTitle = card.querySelector('.card-front h3');
+          const cardTitle = card.querySelector('h3');
           cardTitle.textContent = mainTitle;
 
           // Extract a short preview (first 100 characters of text)
           const previewText = tempDiv.textContent.slice(0, 100) + '...'; // Limit to 100 characters
           previewDiv.textContent = previewText;
 
-          // Store the full content in the back of the card
-          fullContentDiv.innerHTML = html;
+          // Store the full content in a data attribute
+          card.setAttribute('data-full-content', html);
         })
         .catch(error => {
           previewDiv.textContent = `Error loading content: ${error.message}`;
         });
 
-      // Add click event to flip the card and expand it
+      // Add click event to expand the card
       card.addEventListener('click', () => {
         // Create an expanded card overlay
         const expandedCard = document.createElement('div');
         expandedCard.classList.add('expanded-card');
 
         // Copy the full content into the expanded card
-        const fullContent = card.querySelector('.full-content').innerHTML;
+        const fullContent = card.getAttribute('data-full-content');
         expandedCard.innerHTML = `
-          <h3>${card.querySelector('.card-front h3').textContent}</h3>
+          <h3>${card.querySelector('h3').textContent}</h3>
           <div>${fullContent}</div>
           <button style="margin-top: 20px; padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;" onclick="closeExpandedCard(this)">Close</button>
         `;
