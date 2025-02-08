@@ -32,6 +32,15 @@ function normalizeText(text) {
   return text.replace(/’/g, "'"); // Replace curly apostrophe with straight apostrophe
 }
 
+// Function to shuffle the sentences array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // Update sentence set based on user selection
 sentenceSetDropdown.addEventListener('change', async () => {
   const selectedSet = sentenceSetDropdown.value;
@@ -39,6 +48,16 @@ sentenceSetDropdown.addEventListener('change', async () => {
   currentSentenceIndex = 0;
   correctCount = 0;
   updateSentenceSet();
+});
+
+// Event listener for the randomize button
+document.getElementById('randomize-btn').addEventListener('click', () => {
+  if (currentSet.length > 0) {
+    currentSet = shuffleArray(currentSet);
+    currentSentenceIndex = 0;
+    correctCount = 0;
+    updateSentenceSet();
+  }
 });
 
 // Update the displayed sentence and progress

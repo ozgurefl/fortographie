@@ -74,6 +74,22 @@ body.dark-theme select {
   border-color: #444; /* Darker border for dropdown */
 }
 
+#randomize-btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745; /* Green color for the button */
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+#randomize-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
 #sentence-display {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
