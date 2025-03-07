@@ -421,5 +421,97 @@
                 }
             ]
         }
+        {
+            "category": "Introduction 1",
+            "cards": [
+                {
+                    "word": "Je vais commencer par vous donner mon opinion sur ce sujet : [insérez le sujet ici].",
+                    "translation": "I will start by giving you my opinion on this topic: [insert topic here].",
+                    "example_fr": "Je vais commencer par vous donner mon opinion sur ce sujet : l'importance de l'éducation.",
+                    "example_en": "I will start by giving you my opinion on this topic: the importance of education."
+                },
+                {
+                    "word": "Selon moi, cette question est cruciale, parce qu’elle concerne [aspect clé du sujet].",
+                    "translation": "In my opinion, this question is crucial because it concerns [key aspect of the topic].",
+                    "example_fr": "Selon moi, cette question est cruciale, parce qu’elle concerne l’avenir des jeunes générations.",
+                    "example_en": "In my opinion, this question is crucial because it concerns the future of younger generations."
+                },
+                {
+                    "word": "Je vais organiser mes idées en deux parties : d’abord mes raisons, ensuite une synthèse finale.",
+                    "translation": "I will organize my ideas into two parts: first my reasons, then a final summary.",
+                    "example_fr": "Je vais organiser mes idées en deux parties : d’abord mes raisons, ensuite une synthèse finale.",
+                    "example_en": "I will organize my ideas into two parts: first my reasons, then a final summary."
+                }
+            ]
+        },
+        {
+            "category": "Development 1 – First Main Idea",
+            "cards": [
+                {
+                    "word": "Premièrement, je pense que [idée principale 1], car cela reflète [justification].",
+                    "translation": "Firstly, I think that [main idea 1], because it reflects [justification].",
+                    "example_fr": "Premièrement, je pense que la liberté d’expression est essentielle, car cela reflète les valeurs démocratiques.",
+                    "example_en": "Firstly, I think that freedom of speech is essential, because it reflects democratic values."
+                },
+                {
+                    "word": "Prenons l’exemple de [exemple concret] : cela montre clairement que [explication].",
+                    "translation": "Let’s take the example of [specific example]: it clearly shows that [explanation].",
+                    "example_fr": "Prenons l’exemple de la Révolution française : cela montre clairement que le peuple peut provoquer un changement politique.",
+                    "example_en": "Let’s take the example of the French Revolution: it clearly shows that the people can provoke political change."
+                },
+                {
+                    "word": "Ainsi, on peut dire que [reformulation de l’idée principale 1] joue un rôle important.",
+                    "translation": "Thus, we can say that [reformulation of main idea 1] plays an important role.",
+                    "example_fr": "Ainsi, on peut dire que l’éducation pour tous joue un rôle important dans le développement d’une société équilibrée.",
+                    "example_en": "Thus, we can say that education for all plays an important role in the development of a balanced society."
+                }
+            ]
+        },
+        {
+            "category": "Development 1 – Second Main Idea",
+            "cards": [
+                {
+                    "word": "Deuxièmement, il faut souligner que [idée principale 2], en raison de [justification].",
+                    "translation": "Secondly, it’s worth noting that [main idea 2], due to [justification].",
+                    "example_fr": "Deuxièmement, il faut souligner que la protection de l’environnement est cruciale, en raison des effets dévastateurs du réchauffement climatique.",
+                    "example_en": "Secondly, it’s worth noting that environmental protection is crucial, due to the devastating effects of climate change."
+                },
+                {
+                    "word": "Un cas concret serait [exemple concret], ce qui démontre que [explication].",
+                    "translation": "A concrete case would be [specific example], which demonstrates that [explanation].",
+                    "example_fr": "Un cas concret serait la déforestation en Amazonie, ce qui démontre que l’exploitation excessive des ressources naturelles met en danger l’écosystème mondial.",
+                    "example_en": "A concrete case would be deforestation in the Amazon, which demonstrates that excessive exploitation of natural resources endangers the global ecosystem."
+                },
+                {
+                    "word": "Même si certains diraient que [contre-argument], je crois au contraire que [réfutation].",
+                    "translation": "Even if some might say that [counterargument], I believe on the contrary that [refutation].",
+                    "example_fr": "Même si certains diraient que les impôts sont trop élevés, je crois au contraire que cela permet de financer des services publics essentiels.",
+                    "example_en": "Even if some might say that taxes are too high, I believe on the contrary that it allows for the funding of essential public services."
+                }
+            ]
+        },
+        {
+            "category": "Conclusion 1",
+            "cards": [
+                {
+                    "word": "Pour conclure, mon opinion est que [résumé du point de vue], en raison de [récapitulation brève].",
+                    "translation": "To conclude, my opinion is that [summary of viewpoint], due to [brief recap].",
+                    "example_fr": "Pour conclure, mon opinion est que l’éducation est la base du progrès social, en raison de son impact à long terme sur la société.",
+                    "example_en": "To conclude, my opinion is that education is the foundation of social progress, due to its long-term impact on society."
+                },
+                {
+                    "word": "Néanmoins, chacun peut avoir une perspective différente sur ce point.",
+                    "translation": "Nevertheless, everyone may have a different perspective on this point.",
+                    "example_fr": "Néanmoins, chacun peut avoir une perspective différente sur ce point.",
+                    "example_en": "Nevertheless, everyone may have a different perspective on this point."
+                },
+                {
+                    "word": "En somme, je maintiens que [phrase finale ou ouverture], et cela résume ma position.",
+                    "translation": "In short, I maintain that [final sentence or opening], and that sums up my position.",
+                    "example_fr": "En somme, je maintiens que l’action collective est nécessaire pour résoudre les problèmes environnementaux, et cela résume ma position.",
+                    "example_en": "In short, I maintain that collective action is necessary to solve environmental problems, and that sums up my position."
+                }
+            ]
+        }
     ]
 }
